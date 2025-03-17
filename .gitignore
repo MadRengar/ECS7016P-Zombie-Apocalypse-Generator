@@ -2,12 +2,11 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-.utmp/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
+# /[Bb]uild/
+# /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
@@ -57,11 +56,10 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
-*.aab
-*.unitypackage
-*.unitypackage.meta
-*.app
+# *.apk
+# *.aab
+# *.unitypackage
+# *.app
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -72,3 +70,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore test scenes
+Assets/Scenes/TestScene.unity
+Assets/Scenes/TestScene.unity.meta
+Assets/Scenes/TestScene.meta
+Assets/Scenes/TestScene/
+/Packages
+/ProjectSettings/Packages
+.idea/workspace.xml
+
+/Assets/Local
+Assets/Local.meta
+
